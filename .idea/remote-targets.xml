@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-20.04" type="wsl" uuid="e508f024-6001-486a-9377-df9877166448">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-20.04" />
+          <option name="projectRootOnTarget" value="/mnt/f/IDEAs/IntelliJ/IntelliJ IDEA 2021.3.2/jbr/bin&#10;/susMQ" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="C:\Program Files\Java\jdk-17.0.4.1" />
+            <option name="javaVersionString" value="17.0.4.1+1-LTS-2" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target type="docker" uuid="6af9c07b-4cfa-488d-82d7-631f654cc170">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildImageConfig">
+            <BuildImageConfig>
+              <option name="dockerFile" value="src/main/java/client/SusSocketClient.java" />
+            </BuildImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="GradleRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
